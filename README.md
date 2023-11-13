@@ -3,7 +3,7 @@ Udly - Udemy Downloader GUI
 
 This GUI tool will work over the latest branches of the Udemy Downloader made by Puyodead1
 
-This tool is not to be confused with a full
+This tool is not to be confused with a full-fledge way to obtain courses as, is just an abstraction layer on top of the downloader program. 
 
 # How to Use?
 Put all the files in the udemy-downloader folder.
