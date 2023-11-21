@@ -36,7 +36,7 @@ def run_external_script(course_link, selected_browser):
     if not course_link:
         print("Course link is empty. Please enter a valid Udemy course link.")
         return
-    command = ["python", "main.py", "-c", course_link, "--browser", selected_browser, "--disable-ipv6", "--download-assets", "--download-captions", "--download-quizzes", "--id-as-course-name", "-n"]
+    command = ["python", "main.py", "-c", course_link, "--browser", selected_browser, "--download-assets", "--download-captions", "--download-quizzes", "--id-as-course-name", "-n"]
     current_process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, universal_newlines=True)
 
 
